@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "541299675646",
+    "project_id": "kokiri-6e554",
+    "storage_bucket": "kokiri-6e554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541299675646:android:f4fab4cfc699a379fa70af",
+        "android_client_info": {
+          "package_name": "com.example.kokiri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhHgyvpeyRiiTBYgkjA-aJnxivHl3DbxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
