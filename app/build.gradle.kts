@@ -71,6 +71,7 @@ dependencies {
     implementation("androidx.palette:palette-ktx:1.0.0")
     implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.6.2")
     implementation("com.google.firebase:firebase-database")
+    implementation ("com.google.firebase:firebase-messaging")
     }
 
 repositories {

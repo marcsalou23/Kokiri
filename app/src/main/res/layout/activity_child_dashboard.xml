@@ -1,0 +1,36 @@
+<!-- res/layout/activity_child_dashboard.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/childNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child's Dashboard"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/activitySummaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Summary: "
+        android:layout_below="@id/childNameTextView"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Additional UI components -->
+    <Button
+        android:id="@+id/notificationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Notifications"
+        android:layout_below="@id/activitySummaryTextView"
+        android:layout_marginTop="16dp"
+        android:onClick="onNotificationButtonClick"/>
+
+</RelativeLayout>
