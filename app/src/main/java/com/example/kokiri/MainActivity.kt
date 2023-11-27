@@ -52,3 +52,11 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 }
+val mAuth = FirebaseAuth.getInstance()
+
+// Check if user is signed in
+if (mAuth.currentUser == null) {
+    // If not, navigate to the authentication screen
+    startActivity(Intent(this, AuthenticationActivity::class.java))
+    finish()
+}

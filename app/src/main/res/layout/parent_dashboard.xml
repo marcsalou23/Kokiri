@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RecyclerView for Child Activity Summaries -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/childSummaryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_above="@+id/settingsLayout"/>
+
+    <!-- Settings and Controls Layout -->
+    <LinearLayout
+        android:id="@+id/settingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp">
+
+        <!-- Set Time Limits Button -->
+        <Button
+            android:id="@+id/setTimeLimitsButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Set Time Limits"
+            android:layout_marginEnd="10dp"/>
+
+        <!-- Block Apps Button -->
+        <Button
+            android:id="@+id/blockAppsButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Block Apps"/>
+    </LinearLayout>
+
+    <!-- Add more settings and controls as needed -->
+
+</RelativeLayout>
